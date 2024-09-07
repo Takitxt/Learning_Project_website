@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: rgb(246, 240, 230);
+    font-family: "Poppins", sans-serif;
+    
+}
+.nav {
+display: flex;
+justify-content: space-around;
+background-color: rgb(21, 19, 19);
+align-items: center;
+height: 80px;
+position: fixed;
+width: 100%;
+top: 0%;
+z-index: 1000;
+}
+.nav .left .nav-heading{
+    position: absolute;
+    /* height: 20px; */
+    left: 22px;
+    width: 157px;
+    top: 8px;
+}
+.nav .left{
+    height: 60px;
+    position: relative;
+}
+.nav .left .logo{
+    position: absolute;
+    top: 2px;
+}
+
+.left .logo img {
+    height: 50px; /* Adjust the size of the logo */
+}
+.left{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.nav ul{
+display: flex;
+justify-content: center;
+
+}
+.nav ul li{
+    margin: 0 23px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(189, 189, 238);
+    font-size: 1.02rem;
+}
+.left{
+    font-size: x-large;
+    font-weight: 600;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 80px 0px; */
+    align-items: center;
+    height: 500px;
+    padding-top: 200px;
+    margin-bottom: 206px;
+
+}
+.firstsection > div{
+    width:40%;
+    
+
+}
+.leftsection{
+    font-size: 3rem;
+    
+}
+.name{
+    color: #5a03d5;
+    font-weight: 600;
+}
+#element{
+    color: #5a03d5;
+    font-weight: 500;
+}
+.secondsection{
+    
+    margin: 10px 0;
+
+
+}
+.secondsection .frst{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 100px;
+    
+    border-top: 5px;
+    color: #6145d7;
+}
+hr{
+    border: 0;
+    height: 3px;
+    background-color:rgb(133, 181, 228); 
+    margin: 50px 110px 67px 110px;
+}
+
+
+.custom-carousel {
+width: 1000px; /* Fixed width */
+height: 500px; /* Fixed height */
+margin: auto; /* Center the carousel */
+border-radius: 20px; /* Rounded borders */
+overflow: hidden; /* Ensure the content stays within the rounded borders */
+position: relative; /* Position relative to place captions correctly */
+}
+
+.carousel-inner {
+height: 100%; /* Make inner container full height */
+}
+
+.carousel-item {
+height: 100%; /* Make each item full height */
+}
+
+.carousel-item img {
+width: 100%; /* Make the image width fill the carousel */
+height: 100%; /* Make the image height fill the carousel */
+object-fit: contain; /* Ensure images are contained without cropping */
+border-radius: 20px; /* Apply the same border radius to the images */
+}
+
+.carousel-caption {
+position: absolute; /* Position the captions */
+bottom: 20px; /* Distance from the bottom */
+left: 50%; /* Center horizontally */
+transform: translateX(-50%); /* Adjust horizontal position */
+color: white; /* Text color */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better readability */
+background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+padding: 10px; /* Padding for better spacing */
+border-radius: 10px; /* Rounded corners for caption background */
+}
+.thirdsection .first ul li{
+    list-style: none;
+    
+    
+    
+}
+.thirdsection .first ul {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.thirdsection .first{
+    position: absolute;
+    width: 80%;
+    left: 145px;
+    margin-top: 55px;
+}
+.thirdsection .first li button{
+    
+    border-radius: 20px;
+    border: 1px solid pink;
+    /* background-color: #ffc107; */
+    height: 64px;
+    width: 145px;
+    color: #853cff;
+    font-weight: 800;
+    font-size: 20px;
+}
+.thirdsection .about{
+    margin: 30px 0;
+}
+.thirdsection .about .head{
+    font-size: 3rem;
+    color: aliceblue;
+    text-shadow: 3px 4px #003f9c;
+}
+.thirdsection{
+    height: 600px;
+    position: relative;
+}
+.thirdsection .btn:hover{
+    height: 75px;
+    width: 155px;
+}
+.thirdsection .second{
+    position: absolute;
+    top: 264px;
+    left: 427px;
+    height: 268px;
+    width: 681px;
+    background-color: #00abff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px 28px #6351e1;
+}
+.thirdsection .second .image img{
+    height: 268px;
+    width: 681px;
+    border-radius: 30px;
+
+
+}
+.thirdsection .second .cont{
+    position: absolute;
+    top: 21px;
+    color: #b7dcfc;
+    left: 10px;
+    font-weight: 500;
+    font-size: 23px;
+
+}
+.thirdsection .about .heading{
+    display: flex;
+    justify-content: center;
+}
+.her{
+    margin-top: 54px;
+    position: relative;
+}
+.her .hr{
+    position: absolute;
+    width: 75%;
+    height: 50px;
+    left: 364px;
+    top: -25px;
+}
+.her .image{
+    width: 285px;
+    position: absolute;
+    left: 200px;
+}
+.her .content img{
+    height: 58px;
+    width: 58px;
+    border-radius: 17%;
+    transform: rotate(45deg);
+}
+.her .content{
+    height: 58px;
+    width: 58px;
+    position: absolute;
+    left: 87px;
+}
+.fourthsection .first{
+    height: 347px;
+    position: relative;
+}
+.fourthsection .first .listitem{
+    position: absolute;
+    top: 119px;
+    width: 80%;
+    left: 152px;
+    height: 123px;
+}
+.fourthsection .first .listitem ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 163px;
+    background-color: #050404;
+
+}
+.fourthsection .first .listitem ul li img{
+    height: 65px;
+    
+
+}
+.footer .section{
+    height: 148px;
+    background-color: #0d0d0d;
+}

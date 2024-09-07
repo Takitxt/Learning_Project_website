@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+</head> 
+
+ 
+<body>
+
+
+    <div class="heading">
+        <p>Rock-Paper-Scissor</p>
+    </div>
+    
+
+    <div class="main">
+        <div class="you">
+            <div class="h1"><h1>You</h1></div>
+        </div>
+        <div class="computer">
+            <div class="h1"><h1>Computer</h1></div>
+        </div>
+
+        
+    </div>
+
+    
+    <div>
+
+        <button type="button" class="btn btn-danger Rock" onclick="
+
+        computerclick();
+       
+    
+        ">Rock</button>
+        <button type="button" class="btn btn-light Paper" onclick="
+        computerclick();
+        
+        
+        ">Paper</button>
+        <button type="button" class="btn btn-success scissor" onclick="
+    
+    
+        computerclick();
+    
+    
+        ">Scissor</button>
+    </div>
+    
+    
+    
+ 
+    <div>
+        <p class="nk"></p>
+        <p class="rk"></p>
+        <p class="para"></p>
+    </div>
+    <button type="button" class="btn btn-dark Reset" onclick="
+    resetscore();
+
+    ">Reset Score</button>
+    
+        <script src="index.js"></script>
+       
+</body>
+
+
+</html>
