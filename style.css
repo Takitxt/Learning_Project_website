@@ -35,10 +35,12 @@ body{
 .nav .left .logo{
     position: absolute;
     top: 2px;
+    right: -7px;
 }
 
 .left .logo img {
     height: 50px;
+    border-radius: 50%;
 }
 
 .left{
@@ -297,149 +299,3 @@ hr{
     background-color: #0d0d0d;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 1024px) {
-    .nav ul {
-        flex-direction: column;
-    }
-
-    .firstsection {
-        flex-direction: column;
-        padding-top: 100px;
-    }
-
-    .firstsection > div {
-        width: 80%;
-    }
-
-    .leftsection {
-        font-size: 2rem;
-    }
-
-    .carousel-inner {
-        height: 300px;
-    }
-
-    .thirdsection .first {
-        position: relative;
-        width: 100%;
-        left: 0;
-    }
-
-    .thirdsection .second {
-        position: relative;
-        top: 0;
-        left: 0;
-        height: 200px;
-        width: 100%;
-    }
-
-    .thirdsection .second .image img {
-        height: 200px;
-        width: 100%;
-    }
-
-    .thirdsection .about .head {
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column;
-        height: auto;
-    }
-
-    .nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .firstsection {
-        flex-direction: column;
-        height: auto;
-        padding-top: 50px;
-    }
-
-    .firstsection > div {
-        width: 90%;
-    }
-
-    .carousel-inner {
-        height: 250px;
-    }
-
-    .thirdsection .first li button {
-        width: 120px;
-    }
-
-    .thirdsection .second {
-        width: 90%;
-    }
-
-    .thirdsection .second .image img {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .leftsection {
-        font-size: 1.5rem;
-    }
-
-    .firstsection > div {
-        width: 100%;
-    }
-
-    .thirdsection .second .cont {
-        font-size: 18px;
-    }
-
-    .thirdsection .second .image img {
-        height: 150px;
-    }
-
-    .thirdsection .btn:hover {
-        width: 135px;
-        height: 65px;
-    }
-}
-
-/* 2K Display */
-@media screen and (min-width: 1440px) {
-    .nav {
-        padding: 20px 100px;
-    }
-
-    .firstsection {
-        padding-top: 150px;
-    }
-
-    .carousel-inner {
-        height: 400px;
-    }
-
-    .thirdsection .first {
-        left: 250px;
-    }
-}
-
-/* 4K Display */
-@media screen and (min-width: 2560px) {
-    .nav {
-        padding: 20px 200px;
-    }
-
-    .firstsection {
-        padding-top: 200px;
-    }
-
-    .thirdsection .first {
-        left: 350px;
-    }
-
-    .thirdsection .second {
-        width: 80%;
-        height: 300px;
-    }
-}
