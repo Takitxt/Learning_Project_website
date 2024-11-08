@@ -11,28 +11,35 @@
     <link rel="stylesheet" href="./style.css">  
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            
-            
-            <div class="left">
-              <div class="logo"><img src="./src/logos/download (1).jpeg" alt=""></div>
-              <div class="nav-heading">Test Projects</div>
+  <header>
+    <nav class="nav">
+        <div class="left">
+            <div class="logo">
+                <img src="./src/logos/download (1).jpeg" alt="Logo">
             </div>
-            <div class="right">
-                <ul> 
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#AboutMe">About Me</a></li>
-                    <li><a href="#ContactInfo">Contact Info</a></li>
-                </ul>
-            </div>
-            
+            <div class="nav-heading">Test Projects</div>
+        </div>
         
-    
-    
-        </nav>
-    </header>
+        
+        <div class="toggle-button" onclick="toggleMenu()">☰</div>
+
+        
+        <ul class="right">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#ContactInfo">Contact Info</a></li>
+        </ul>
+
+        
+        <ul class="right mobile">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#ContactInfo">Contact Info</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main id="Home">
         <section id="firstsection" class="firstsection">
@@ -174,6 +181,12 @@
         </footer>
 
     </main>
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector('.nav ul.mobile');
+        menu.classList.toggle('active');
+      }
+    </script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
 
